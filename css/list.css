@@ -1,0 +1,44 @@
+ #content{
+ 	width:1100px;
+ 	height:auto;
+	margin:0 auto;
+	font-size: 14px;
+ }
+#content #local{
+	background: #eee;
+	margin:10px 0 10px 0;
+}
+#content #listnav ul{
+	background: #B22222;
+	display: inline-block;
+	width: 180px;
+	height: 180px;
+	float: left;
+}
+#content #listnav ul li{
+	display:block;
+	line-height: 210%;
+	text-align: center;
+	color: #fff;
+}
+#content #list_content_right dl{
+	float: left;
+	margin:0 0 0 15px;
+	background: #eee;
+	width:905px;
+}
+#content #list_content_right dl dd{
+	display:block;
+	line-height: 210%;
+	color: #fff;
+	
+}
+#content #list_content_right dl dd a{
+	color: black;
+	text-decoration: none;
+}
+#content #list_content_right dl dd span{
+	color:#2283AC;
+	float: right;
+	margin:0 25px 0 0;
+}

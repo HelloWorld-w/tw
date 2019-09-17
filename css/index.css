@@ -1,0 +1,154 @@
+/**
+ * 针对content中 dl dt
+ * 全应用
+ */
+dl dt{
+	background:url(../images/daohang1.jpg) no-repeat;
+
+}
+dl dt{
+	height: 35px;
+	color: #E63F4F;
+	padding:15px 0 0 45px;
+	margin-bottom: 10px;
+	font-size: 16px;
+}
+dl dt a{
+	font-size: 14px;
+	margin:10px 15px 0 0;
+	color: #E63F4F;
+	text-decoration: none;
+}
+dl dd{
+	line-height: 260%;
+	margin-left: 10px;
+}
+dl dd span{
+	float: right;
+	color: #2283AC;
+	margin-right: 10px;
+}
+dl dt a{
+	float: right;
+}
+dl dd a{
+	text-decoration: none;
+	color:#000;
+	letter-spacing: 5px;
+}
+/**
+ * content
+ */
+#content{
+	width：1200px;
+	height: 1283px;
+	background:#eee;
+	margin:0 79px 0 83px;
+	font-size: 14px;
+	padding: 10px 5px 0 0;
+}
+#content img{
+	width:750px;
+	height: 320px;
+	float: left;
+	margin-bottom: 10px;
+}
+/**
+ * content_top
+ */
+#content_top{
+	width:445px;
+	height:320px;
+	float: right;
+	background: #fff;
+	margin-bottom: 10px;
+}
+/**
+ * content_cen
+ */
+#content_cen,#content_cen_right ,#content_bottom{
+	margin-bottom: 10px;
+}
+#content_cen dl,#content_bottom dl{
+	margin:0 2px 0 2px;
+}
+#content_cen dl,#content_bottom dl,#content_cen_right dl,#content_bottom_right dl{
+	width: 395px;
+	height: auto;
+	background: #fff;
+	float: left;
+}
+#content_cen_right,#content_bottom_right{
+	width: 400px;
+	height: auto;
+	background: #fff;
+	float: left;
+	margin:0 0 10px 1px;
+}
+#content_cen_right{
+	font-size: 16px;
+}
+#content_cen_right span{
+	width: 60px;
+	height: 30px;
+	float: left;
+	background:#CC3333;
+	color:#fff;
+	font-weight:bold;
+	line-height: 130%;
+	text-align: center;
+	font-size: 24px;
+	margin:10px 0 0 0;
+}
+#content_cen_right dl dd{
+	
+
+}
+/**
+ * content_cen_image
+ */
+#content_cen_image{
+	width:1200px;
+}
+#content_cen_image img{
+	height:110px;
+	background:#fff;
+	margin-left: 5px;
+}
+#content_cen_imagel img{
+	width:830px;
+	float: left;
+	padding:5px;
+
+}
+#content_cen_imager img{
+	width:340px;
+	float: left;
+	padding:5px;
+
+}
+/**
+ * content_bottom_image
+ */
+#content_bottom_image h3{
+	height: 35px;
+	background:url(../images/gd.jpg) no-repeat;
+	color:#E63F4F;
+	padding:15px 0 0 50px;
+	clear: both;
+	font-weight: normal;
+}
+#content_bottom_image a{
+	float: right;
+	color: #E63F4F;
+	margin-right: 10px;
+	text-decoration: none;
+	font-weight: normal;
+}
+#content_bottom_image img{
+	height: 115px;
+	width:165px;
+	padding:5px 0 0 6px;
+	background:#fff;
+}
+

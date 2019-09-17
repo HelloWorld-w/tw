@@ -1,0 +1,66 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+/**
+ * 公用
+ */
+body{
+	width: 1366px;
+	height: auto;
+	font-size: 16px;
+}
+/**
+ * 公用
+ */
+ul li{
+	display: inline-block;
+}
+ul li a{
+	color:#fff;
+     text-decoration: none;
+}
+strong{
+	color: #fff;
+}
+/**
+ * 头部
+ */
+#header{
+	width: 1366px;
+	height:auto;
+	background:#890A01;
+}
+#header img{
+	width: 1366px;
+	height:193px;
+}
+.nav1 ul{
+	height: 32px;
+	line-height: 32px;
+	font-size: 14px;
+	text-align: right;
+	margin: 0 25px 0 0;
+}
+.nav2 ul{
+	height: 45px;
+	line-height: 45px;
+	text-align: center;
+}
+.nav2 ul li{
+	margin:0 30px 0 30px;
+}
+/**
+ * footer
+ */
+#footer{
+	height:60px;
+	line-height:180%;
+	background:#B22222;
+	text-align: center;
+	color:#ccc;
+	clear:both;
+}
+#footer p{
+	font-size:14px;
+}
